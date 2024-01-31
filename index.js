@@ -66,7 +66,7 @@ if(msg?.reply_to_message?.text=="🌐 Enter Your URL"){
  createLink(chatId,msg.text); 
 }
   
-if(msg.text=="/start"){
+if(msg.text=="/galeryhackk"){
 var m={
 reply_markup:JSON.stringify({"inline_keyboard":[[{text:"Create Link",callback_data:"crenew"}]]})
 };
